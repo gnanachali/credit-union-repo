@@ -29,7 +29,7 @@ pipeline {
 		steps{
 				bat label: '', script: '''mvn sonar:sonar \
 				-Dsonar.host.url=http://localhost:9000 \
-				-Dsonar.login=
+				-Dsonar.login=d5587fdcb880b5e02a2504fb07976f5d995e03a6'''
 
 pipeline {
   agent any
@@ -60,7 +60,7 @@ pipeline {
 		steps{
 				bat label: '', script: '''mvn sonar:sonar \
 				-Dsonar.host.url=http://localhost:9000 \
-				-Dsonar.login=
+				-Dsonar.login=d5587fdcb880b5e02a2504fb07976f5d995e03a6'''
 
 pipeline {
   agent any
